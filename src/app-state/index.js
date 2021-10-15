@@ -97,7 +97,6 @@ class AppState {
         this.token = "";
         this.userMenu =null;
         // localStorage.removeItem('user');
-        debugger
         history.replace('/login')
     }
 }
